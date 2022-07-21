@@ -1,0 +1,140 @@
+#don{
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    margin-top: -10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-bottom:30px ;
+}
+#nav{
+ width: 100%;
+ background-color: white;
+ height: 60px;
+ position: sticky;
+ top: 60px;
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 80px;
+}
+a:link{
+    color: white;
+}
+#nav_cont{
+   display: flex;
+   justify-content: space-between;
+   justify-content: center;
+   align-items: center;
+   font-size: 18px;
+}
+#nav_cont>div{
+    padding-right: 50px;
+}
+#logo{
+    padding-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-right: -20px;
+    border: 1px solid black;
+}
+.sign{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding: 9px 15px;
+    background-color: rgb(20, 198, 70);
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+#heading{
+    width: 40%;
+    text-align: center;
+    margin-top: 100px;
+    margin: auto;
+}
+#heading>h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 50px;   
+}
+#heading>p{
+    font-size: 18px;
+    margin-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#heading>button{
+    margin-top: 40px;
+    padding: 14px 18px;
+    color: white;
+    background-color: rgb(20, 198, 70) ;
+    border: 0px;
+    border-radius: 8px;
+}
+#icon{
+    width: 60%;
+    margin-top: 80px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+#icon+div{
+    margin-top: 60px;
+    text-align: center
+}
+#email{
+    width:40%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 40px;
+}
+#testing{
+    width: 78%;
+    height: auto;
+    margin: auto;
+    display:flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+#testing>div{
+    width: 48%;
+    height: auto;
+}
+.test>div:nth-child(1){
+  display: flex;
+  justify-content: space-around;
+}
+.test>div:nth-child(2){
+    display: flex;
+    justify-content: space-around;
+}
+.test>div:nth-child(3){
+    display: flex;
+    justify-content: space-around;
+}
+.test>div:nth-child(1)>div>img{
+    width: 100px;
+    margin-right: 10px;
+}
+.test>div:nth-child(2)>div>img{
+    width: 100px;
+    margin-right: 10px;
+}
+.test>div:nth-child(3)>div>img{
+    width: 100px;
+    margin-right: 10px;
+}
