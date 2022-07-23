@@ -41,6 +41,7 @@ ol {
     margin: 0 0 0.5rem 0;
     counter-increment: my-awesome-counter;
     position:relative;
+    z-index: 100;
   }
  ol li::before{
   content: counter(my-awesome-counter);
@@ -57,6 +58,7 @@ ol {
   border-radius: 50% 40% 40% 50%;
   text-align: center;
   align-content: center;
+  z-index: 100;
 }
 #how{
     width: 25%;
@@ -94,4 +96,93 @@ ul li::before{
   display: inline-block; 
   width: 1.5rem;
   margin-left: -1em;
+}
+#trusthead{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+#trusted{
+margin-top: 100px;
+margin-bottom: 100px;
+}
+#icons{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin :auto;
+}
+#icons>img{
+  width: 100px;
+  margin:10px 65px;
+}
+#faqhead{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 70px;
+}
+#faqcont{
+    
+    width :70%;
+    margin:auto;
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-template-rows: repeat(2,auto);
+   gap: 20px;
+}
+#faqcont>div{
+    text-align: justify;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   padding: 20px 40px;
+   border-radius: 7px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+#three{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    height: 380px;
+}
+#threehead{
+    margin-top: 8%;
+    margin-left: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#three>div>img{
+    margin-top: -100px;
+}
+#threehead>h1{
+    font-size: 55px;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+#threehead>h4{
+    font-size: 20px;
+}
+#threehead>button{
+    padding: 14px 20px;
+    background-color: rgb(20, 198, 70);
+    color: white;
+    border: 0px;
+    border-radius: 7px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+#footericon>span{
+    margin-right: 20px;
+    padding:15px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+#footericon>span>i:hover{
+   color: green;
+}
+#footericon>p{
+    margin-bottom: 50px;
 }
