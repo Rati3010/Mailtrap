@@ -43,7 +43,7 @@ a:link{
     justify-content: center;
     align-items: center;
 }
-.log{
+.login{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     padding: 7px 15px;
@@ -51,7 +51,7 @@ a:link{
     margin-right: -20px;
     border: 1px solid black;
 }
-.sign{
+.signup{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px;
     padding: 9px 15px;
