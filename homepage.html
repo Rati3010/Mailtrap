@@ -21,8 +21,8 @@
             <div>Email API</div>
             <div>Pricing</div>
             <div>Resources</div>
-            <div><button class="log">Login</button></div>
-            <div><button class="sign">Sign Up</button></div>
+            <div><button class="login">Login</button></div>
+            <div><button class="signup">Sign Up</button></div>
          </div>
     </div>
     <div class="heading">
@@ -30,7 +30,7 @@
         <p>Capture SMTP traffic from staging and dev environments</p>
         <p> Automate test flows and scenarios with flexible API</p>
         <p> Analyze email content for spam score and validate HTML/CSS</p>
-        <button>Sign Up For Free</button>
+        <button class="signup">Sign Up For Free</button>
      </div>
      <div id="icon">
         <div>
@@ -212,7 +212,7 @@
          <div id="threehead">
             <h4>Create Your Free Account</h4>
             <h1>In 3 Clicks</h1>
-            <button>Sign Up Now</button>
+            <button class="signup">Sign Up Now</button>
          </div>
          <div>
             <img src="https://mailtrap.io/wp-content/uploads/2021/01/img__cta.svg" alt="">
@@ -252,5 +252,12 @@
 <script src="https://kit.fontawesome.com/ba9ef74896.js" crossorigin="anonymous"></script>
 </html>
 <script>
-
+    document.querySelector(".login").addEventListener("click",login);
+    function login(){
+        window.location.href="login.html";
+    }
+    document.querySelector(".signup").addEventListener("click",signup);
+    function signup(){
+         window.location.href="signup.html";
+    }
 </script>

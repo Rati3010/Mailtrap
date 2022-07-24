@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="log.css">
+</head>
+<body>
+    <div id="navbar">
+         <div>
+            <img src="https://assets.mailtrap.io/packs/assets/landing/logo-10f83f473022ef53d82e.svg" alt="">
+         </div>
+         <div>
+            <button class="login">Log In</button>
+            <button class="signup">Sign Up</button>
+         </div>
+    </div>
+    <div id="sigupopt">
+        <div id="signupoption">
+            <h1>Log In</h1>
+            <button class="gray"><i class="fa-brands fa-google"></i>Use Google account</button>
+            <button class="gray"><i class="fa-brands fa-github"></i>Use Github account</button>
+            <button class="gray"><img src="https://cdn-icons-png.flaticon.com/128/732/732070.png" alt="">Use office 365 account</button>
+            <p>OR</p>
+            <input type="email" name="email" id="email">
+            <button class="green">Next</button>
+            <p>By creating a Mailtrap account, you agree to our
+                Terms of Service and Privacy Policy.
+                We'll occasionally send you account related emails.</p>
+        </div>
+
+        <div id="signupimage">
+            <div><img src="https://assets.mailtrap.io/packs/assets/landing/login-fb2fcb15feb36d8e9356.svg" alt=""></div>
+             <p>Mailtrap is great for testing of email notifications that are scheduled to go to many users.</p>
+        </div>
+    </div>
+    <footer>
+        <div>
+         <p>CRAFTED BY</p> 
+         <img src="" alt="">
+         <h3>railsware</h3>           
+        </div>
+        <div>
+            <h3>Mailtrap</h3>
+            <p>Pricing</p>
+            <p>Changelog</p>
+            <p>Status</p>
+            <p>Terms of Services</p>
+            <p>Privacy Policy</p>
+            <p>Navigation Information</p>
+        </div>
+        <div>
+            <h3>Railsware Experience</h3>
+            <p>Mailtrap Blog</p>
+            <p>Coupler.io</p>
+            <p>Smart Checklist for Jira</p>
+            <p>Careers – Railsware Hiring</p>
+        </div>
+        <div id="footericon">
+            <h3>Contact</h3>
+            <p>email: support@mailtrap.io</p>
+            <span><i class="fa-brands fa-facebook-f"></i></span>
+            <span><i class="fa-brands fa-twitter"></i></span>
+            <span><i class="fa-brands fa-linkedin"></i></span>
+        </div>
+    </footer>
+</body>
+<script src="https://kit.fontawesome.com/ba9ef74896.js" crossorigin="anonymous"></script>
+</html>
+<script>
+    document.querySelector(".login").addEventListener("click",login);
+    function login(){
+        window.location.href="login.html";
+    }
+    document.querySelector(".signup").addEventListener("click",signup);
+    function signup(){
+         window.location.href="signup.html";
+    }
+</script>
